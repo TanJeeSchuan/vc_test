@@ -36,7 +36,14 @@ class MainApp extends StatelessWidget {
                     border: OutlineInputBorder(),
                   ),
                 ),
-
+                ElevatedButton(
+                  onPressed: (){}, //Empty event handler
+                  child: Text('Login'),
+                ),
+                ElevatedButton(
+                  onPressed: (){}, //Empty event handler
+                  child: Text('Register'),
+                ),
               ],
           ),
         ),
